@@ -12,7 +12,7 @@ const server = app.listen(port, host, () => {
 });
 
 
-// const router = require('./src/router');
+const router = require('./src/router');
 
 const compression = require("compression");
 const bodyParser = require("body-parser");
@@ -51,16 +51,4 @@ app.use(
 
 
 
-// function handleExit(err) {
-//   if (err) {
-//     console.log(err);
-//   }
-//   if (options.exit) {
-//     process.exit();
-//   }
-// }
 
-// process.on("exit", handleExit.bind(null));
-// process.on("SIGINT", handleExit.bind(null));
-// process.on("SIGTERM", handleExit.bind(null));
-// process.on("uncaughtException", handleExit.bind(null));
