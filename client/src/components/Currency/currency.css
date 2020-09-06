@@ -1,0 +1,31 @@
+.btn-dark_e{
+    background-color: #282a3c;
+    border-color: #282a3c;
+    color: #fff;
+}
+.btn-outline-dark_e{
+    color: #343a40;
+    border-color: #343a40;
+}
+.btn-wrap{
+    border-bottom: 1px solid #8a828263;
+    position: fixed;
+    z-index: 114;
+    background: white;
+    width: 100%;
+}
+.contry_box{
+    padding: 5px;
+    border: 1px solid #a9a9a921;
+    min-height: 200px;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+.cb_img{
+    border-bottom: 1px solid #00800063;
+    margin-bottom: 7px;
+}
+.cb_details{
+    line-height: 1;
+}
